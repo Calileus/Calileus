@@ -9,6 +9,8 @@ https://docs.github.com/es/get-started/writing-on-github/working-with-advanced-f
 
 https://simpleicons.org/
 
+![Char2](https://static.wikia.nocookie.net/pokeone/images/a/a1/004Charmander.gif/revision/latest?cb=20211128041035)
+
 -->
 
 <div align="center">
@@ -43,5 +45,8 @@ https://simpleicons.org/
   <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-F05032?style=for-the-badge&logo=ubuntu&logoColor=white" />
   <img alt="bash" src="https://img.shields.io/badge/-Bash-000000?style=for-the-badge&logo=gnu-bash&logoColor=white" />
   <img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" />
+
+  ![Char2](https://pixeljoint.com/files/icons/full/charmander31.gif)
+  
   
 </div>
