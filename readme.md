@@ -1,5 +1,3 @@
-## Hi there 👋 This Readme is WIP
-
 <!--
 **Calileus/Calileus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,12 +12,13 @@ https://simpleicons.org/
 -->
 
 <div align="center">
-  
+
 | |
 |:---:|
+| Hi there 👋 _This Readme is WIP_ |
 | 🔭 I’m currently working on Continental AG |
 | 🌱 I’m currently learning! |
-| 📫 Reach me: [LinkedIn](www.linkedin.com/in/calileus) |
+| 📫 Reach me: www.linkedin.com/in/calileus |
 | 😄 Pronouns: He, him |
 | ⚡ Fun fact: I like charmander. |
 |  ![Char](https://media.tenor.com/b87Ur_ijFF0AAAAj/char.gif) |
@@ -37,7 +36,7 @@ https://simpleicons.org/
   
   <img alt="C" src="https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img alt="C++" src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img alt="Visual Studio Code" src="https://img.shields.io/badge/-Visual%20Studio%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <img alt="VS Code" src="https://img.shields.io/badge/-VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
   <img alt="Python" src="https://img.shields.io/badge/-Python-45b8d8?style=for-the-badge&logo=python&logoColor=white" />
   <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img alt="markdown" src="https://img.shields.io/badge/-Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
