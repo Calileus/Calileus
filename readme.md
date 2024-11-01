@@ -39,7 +39,8 @@ https://simpleicons.org/
 
   ![Char](https://media.tenor.com/b87Ur_ijFF0AAAAj/char.gif)
 
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Calileus&theme=tokyonight&layout=compact&hide_border=true)](https://github.com/Calileus/github-readme-stats)
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=calileus&theme=gotham&layout=compact&hide=javascript,html,jupyter%20notebook&langs_count=8)
+<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=calileus&theme=tokyonight&layout=compact&hide_border=true)](https://github.com/anuraghazra/github-readme-stats) -->  
 
   <img alt="C" src="https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img alt="C++" src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
