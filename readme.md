@@ -18,25 +18,28 @@ https://simpleicons.org/
 | |
 |:---:|
 | Hi there 👋 _This Readme is WIP_ |
+|  ![Char2](https://i.pinimg.com/originals/a5/5f/19/a55f195a08583688a4676575c5d9332f.gif) |
 | 🔭 I’m currently working on Continental AG |
 | 🌱 I’m currently learning! |
 | 📫 Reach me: www.linkedin.com/in/calileus |
 | 😄 Pronouns: He, him |
 | ⚡ Fun fact: I like charmander. |
-|  ![Char2](https://i.pinimg.com/originals/a5/5f/19/a55f195a08583688a4676575c5d9332f.gif) |
+
 
 </div>
 
 <div align="center">
-  
-  ![Calileus's github stats](https://github-readme-stats.vercel.app/api?username=Calileus&count_private=true&show_icons=true&include_all_commits=false&hide_border=true&hide_title=true&theme=tokyonight)
-  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Calileus&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=Calileus&theme=kimbie_dark&margin-w=15)](https://github.com/calileus/github-profile-trophy)
 
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Calileus&theme=tokyonight&layout=compact&hide_border=true)](https://github.com/Calileus/github-readme-stats)
+  ![Calileus's GitHub stats](https://github-readme-stats.vercel.app/api?username=calileus&count_private=true&show_icons=true&include_all_commits=true&hide_border=flase&hide_title=flase&theme=gotham)
+  ![GitHub Streak](https://streak-stats.demolab.com?user=calileus&theme=soft-green&hide_border=false&exclude_days=Sun%2CSat&card_width=495&card_height=195&type=png)
+<!-- [![GitHub Streak](https://streak-stats.demolab.com?user=calileus&theme=soft-green&hide_border=false&exclude_days=Sun%2CSat&card_width=495&card_height=195&type=png)](https://git.io/streak-stats) -->
+
+  ![trophy](https://github-profile-trophy.vercel.app/?username=calileus&theme=matrix)
+<!-- [![trophy](https://github-profile-trophy.vercel.app/?username=Calileus&theme=kimbie_dark&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy) -->
 
   ![Char](https://media.tenor.com/b87Ur_ijFF0AAAAj/char.gif)
+
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Calileus&theme=tokyonight&layout=compact&hide_border=true)](https://github.com/Calileus/github-readme-stats)
 
   <img alt="C" src="https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img alt="C++" src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
