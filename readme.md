@@ -23,7 +23,7 @@ https://simpleicons.org/
 | 📫 Reach me: www.linkedin.com/in/calileus |
 | 😄 Pronouns: He, him |
 | ⚡ Fun fact: I like charmander. |
-|  ![Char](https://media.tenor.com/b87Ur_ijFF0AAAAj/char.gif) |
+|  ![Char2](https://i.pinimg.com/originals/a5/5f/19/a55f195a08583688a4676575c5d9332f.gif) |
 
 </div>
 
@@ -32,10 +32,12 @@ https://simpleicons.org/
   ![Calileus's github stats](https://github-readme-stats.vercel.app/api?username=Calileus&count_private=true&show_icons=true&include_all_commits=false&hide_border=true&hide_title=true&theme=tokyonight)
   [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Calileus&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
   
-  [![trophy](https://github-profile-trophy.vercel.app/?username=Calileus&theme=kimbie_dark&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy)
+  [![trophy](https://github-profile-trophy.vercel.app/?username=Calileus&theme=kimbie_dark&margin-w=15)](https://github.com/calileus/github-profile-trophy)
 
-  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Calileus&theme=tokyonight&layout=compact&hide_border=true)](https://github.com/TsukiZombina/github-readme-stats)
-  
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Calileus&theme=tokyonight&layout=compact&hide_border=true)](https://github.com/Calileus/github-readme-stats)
+
+  ![Char](https://media.tenor.com/b87Ur_ijFF0AAAAj/char.gif)
+
   <img alt="C" src="https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white" />
   <img alt="C++" src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img alt="VS Code" src="https://img.shields.io/badge/-VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
@@ -46,7 +48,7 @@ https://simpleicons.org/
   <img alt="bash" src="https://img.shields.io/badge/-Bash-000000?style=for-the-badge&logo=gnu-bash&logoColor=white" />
   <img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" />
 
-  ![Char2](https://pixeljoint.com/files/icons/full/charmander31.gif)
+  ![Char3](https://pixeljoint.com/files/icons/full/charmander31.gif)
   
   
 </div>
