@@ -34,7 +34,7 @@ https://simpleicons.org/
   ![GitHub Streak](https://streak-stats.demolab.com?user=calileus&theme=soft-green&hide_border=false&exclude_days=Sun%2CSat&card_width=495&card_height=195&type=png)
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=calileus&theme=soft-green&hide_border=false&exclude_days=Sun%2CSat&card_width=495&card_height=195&type=png)](https://git.io/streak-stats) -->
 
-  ![trophy](https://github-profile-trophy.vercel.app/?username=calileus&theme=matrix)
+  [![trophy](https://github-profile-trophy.vercel.app/?username=calileus&theme=matrix&rank=S,AAA,AA,A,B,C&column=4)](https://github.com/ryo-ma/github-profile-trophy)
 <!-- [![trophy](https://github-profile-trophy.vercel.app/?username=Calileus&theme=kimbie_dark&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy) -->
 
   ![Char](https://media.tenor.com/b87Ur_ijFF0AAAAj/char.gif)
