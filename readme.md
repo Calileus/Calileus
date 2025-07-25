@@ -31,8 +31,6 @@ https://simpleicons.org/
 <div align="center">
 
   ![Calileus's GitHub stats](https://github-readme-stats.vercel.app/api?username=calileus&count_private=true&show_icons=true&include_all_commits=true&hide_border=flase&hide_title=flase&theme=gotham)
-  ![GitHub Streak](https://streak-stats.demolab.com?user=calileus&theme=soft-green&hide_border=false&exclude_days=Sun%2CSat&card_width=495&card_height=195&type=png)
-<!-- [![GitHub Streak](https://streak-stats.demolab.com?user=calileus&theme=soft-green&hide_border=false&exclude_days=Sun%2CSat&card_width=495&card_height=195&type=png)](https://git.io/streak-stats) -->
 
   [![trophy](https://github-profile-trophy.vercel.app/?username=calileus&theme=matrix&rank=S,AAA,AA,A,B,C&column=4)](https://github.com/ryo-ma/github-profile-trophy)
 <!-- [![trophy](https://github-profile-trophy.vercel.app/?username=Calileus&theme=kimbie_dark&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy) -->
