@@ -19,7 +19,7 @@ https://simpleicons.org/
 |:---:|
 | Hi there 👋 _This Readme is WIP_ |
 |  ![Char2](https://i.pinimg.com/originals/a5/5f/19/a55f195a08583688a4676575c5d9332f.gif) |
-| 🔭 I’m currently working on Continental AG |
+| 🔭 I’m currently working on AUMOVIO |
 | 🌱 I’m currently learning! |
 | 📫 Reach me: www.linkedin.com/in/calileus |
 | 😄 Pronouns: He, him |
@@ -29,12 +29,7 @@ https://simpleicons.org/
 </div>
 
 <div align="center">
-
-  ![Calileus's GitHub stats](https://github-readme-stats.vercel.app/api?username=calileus&count_private=true&show_icons=true&include_all_commits=true&hide_border=flase&hide_title=flase&theme=gotham)
-
-  [![trophy](https://github-profile-trophy.vercel.app/?username=calileus&theme=matrix&rank=S,AAA,AA,A,B,C&column=4)](https://github.com/ryo-ma/github-profile-trophy)
-<!-- [![trophy](https://github-profile-trophy.vercel.app/?username=Calileus&theme=kimbie_dark&margin-w=15)](https://github.com/ryo-ma/github-profile-trophy) -->
-
+  
   ![Char](https://media.tenor.com/b87Ur_ijFF0AAAAj/char.gif)
 
   ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=calileus&theme=gotham&layout=compact&hide=javascript,html,jupyter%20notebook&langs_count=8)
