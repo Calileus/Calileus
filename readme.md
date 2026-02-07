@@ -1,51 +1,48 @@
+# Calileus
+I am a software engineer based in **Querétaro, Mexico**, obsessed with quality code and clean architectures.  
+
+### Expertise Profile
+`C++17/20` • `C` • `Python` • `CMake`
+* I’m currently working on AUMOVIO as SW Architect of a Radar Sensor Logic Model.
+* **HackerRank:** [Calileus](https://www.hackerrank.com/profile/calileus), **LinkedIn:** [Calileus](https://www.linkedin.com/in/calileus)
+* **GitHub Org:** [@ObsidianHonorCoders](https://github.com/ObsidianHonorCoders)
+* **Academic Committee:** [Logic Olympiad](https://olimpiada-logica.webnode.mx/)
+
+## Obsidian Honor Coders (OHC)
+<img width="204" height="204" alt="OHC-logo" src="https://github.com/user-attachments/assets/77a1c3c6-674d-49ce-bc4c-067affe9f69f" />
+
+> "Sharp Logic. High RPM. Unshakable Integrity."
+
+As the founder of **OHC**, I lead the phalanx in conquering technical debt and building high-quality engines.
+
+### 🏗️ The Obsidian Forge
+I am refining the **[Inheritance Chess](https://github.com/ObsidianHonorCoders/inheritance-chess)** engine. Striking the balance between elegant class hierarchies and raw execution speed.
+
+* **🔭 I’m currently working on:** Cross-platform build systems and chess engine heuristics.
+
+### ⚙️ The OHC Manifesto
+
+| Virtue | Technical Meaning | The OHC Action |
+| :--- | :--- | :--- |
+| **Integrity** | Pure Logic | We do not ship "hacks" that we aren't willing to fix later. |
+| **Courage** | Refactoring | We are not afraid to delete bad code, even if we wrote it ourselves. |
+| **Discipline** | Documentation | We document our scripts so the next warrior can pick up the blade. |
+| **Loyalty** | Peer Review | We protect the main branch like a fortress; no bug passes the gate. |
+
+<div align="center">
+<br><i>"Keep the flame burning, and the blade sharp."</i><br>
+
+![Char](https://media.tenor.com/b87Ur_ijFF0AAAAj/char.gif)
+</div>
+
+---
+
+### Fun fact
+*I love charmander.*
+
+<img src="https://static.wikia.nocookie.net/pokeone/images/a/a1/004Charmander.gif" width="52"><img src="https://static.wikia.nocookie.net/pokeone/images/a/a1/004Charmander.gif" width="50"><img src="https://static.wikia.nocookie.net/pokeone/images/a/a1/004Charmander.gif" width="55"><img src="https://static.wikia.nocookie.net/pokeone/images/a/a1/004Charmander.gif" width="48"><img src="https://static.wikia.nocookie.net/pokeone/images/a/a1/004Charmander.gif" width="50">
+
 <!--
-**Calileus/Calileus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-
-https://docs.github.com/es/get-started/writing-on-github/working-with-advanced-formatting/organizing-information-with-tables
-
-https://simpleicons.org/
-
-![Char2](https://static.wikia.nocookie.net/pokeone/images/a/a1/004Charmander.gif/revision/latest?cb=20211128041035)
-
+<img src="https://i.pinimg.com/originals/a5/5f/19/a55f195a08583688a4676575c5d9332f.gif" width="200">
+<img src="https://pixeljoint.com/files/icons/full/charmander31.gif" width="150">
 -->
-
-<div align="center">
-
-| |
-|:---:|
-| Hi there 👋 _This Readme is WIP_ |
-|  ![Char2](https://i.pinimg.com/originals/a5/5f/19/a55f195a08583688a4676575c5d9332f.gif) |
-| 🔭 I’m currently working on AUMOVIO |
-| 🌱 I’m currently learning! |
-| 📫 Reach me: www.linkedin.com/in/calileus |
-| 😄 Pronouns: He, him |
-| ⚡ Fun fact: I like charmander. |
-
-
-</div>
-
-<div align="center">
-  
-  ![Char](https://media.tenor.com/b87Ur_ijFF0AAAAj/char.gif)
-
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=calileus&theme=gotham&layout=compact&hide=javascript,html,jupyter%20notebook&langs_count=8)
-<!-- [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=calileus&theme=tokyonight&layout=compact&hide_border=true)](https://github.com/anuraghazra/github-readme-stats) -->  
-
-  <img alt="C" src="https://img.shields.io/badge/-C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img alt="C++" src="https://img.shields.io/badge/-C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img alt="VS Code" src="https://img.shields.io/badge/-VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img alt="Python" src="https://img.shields.io/badge/-Python-45b8d8?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img alt="markdown" src="https://img.shields.io/badge/-Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
-  <img alt="Ubuntu" src="https://img.shields.io/badge/-Ubuntu-F05032?style=for-the-badge&logo=ubuntu&logoColor=white" />
-  <img alt="bash" src="https://img.shields.io/badge/-Bash-000000?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-  <img alt="Stack Overflow" src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" />
-
-  ![Char3](https://pixeljoint.com/files/icons/full/charmander31.gif)
-  
-  
-</div>
