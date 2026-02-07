@@ -1,4 +1,3 @@
-# Calileus
 I am a software engineer based in **Querétaro, Mexico**, obsessed with quality code and clean architectures.  
 
 ### Expertise Profile
