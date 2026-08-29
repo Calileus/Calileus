@@ -4,7 +4,7 @@ I am a software engineer based in **Querétaro, Mexico**, obsessed with quality 
 `C++17/20` • `C` • `Python` • `CMake`
 * I’m currently working on AUMOVIO as SW Architect of a Radar Sensor Logic Model.
 * **HackerRank:** [Calileus](https://www.hackerrank.com/profile/calileus), **LinkedIn:** [Calileus](https://www.linkedin.com/in/calileus)
-* **GitHub Org:** [@ObsidianHonorCoders](https://github.com/ObsidianHonorCoders)
+* **GitHub Orgs:** [@ObsidianHonorCoders](https://github.com/ObsidianHonorCoders), [@CalileusLab](https://github.com/CalileusLab)
 * **Academic Committee:** [Logic Olympiad](https://olimpiada-logica.webnode.mx/)
 
 ## Obsidian Honor Coders (OHC)
@@ -30,7 +30,18 @@ I am refining the **[Inheritance Chess](https://github.com/ObsidianHonorCoders/i
 
 <div align="center">
 <br><i>"Keep the flame burning, and the blade sharp."</i><br>
+</div>
 
+## 🧪🛠️ CalileusLab
+<img width="204" height="204" alt="calileuslab-org" src="https://github.com/user-attachments/assets/0abffeaf-5518-4599-8e3c-2534b1b3962e" />
+
+> **"Sharp Logic. High Performance. Relentless Innovation."**
+
+This is a specialized engineering sandbox where raw ideas transform into high-performance software.
+
+<div align="center">
+<br><i>"I don't just write code; I architect systems."</i><br>
+  
 ![Char](https://media.tenor.com/b87Ur_ijFF0AAAAj/char.gif)
 </div>
 
