@@ -56,3 +56,83 @@ This is a specialized engineering sandbox where raw ideas transform into high-pe
 <img src="https://i.pinimg.com/originals/a5/5f/19/a55f195a08583688a4676575c5d9332f.gif" width="200">
 <img src="https://pixeljoint.com/files/icons/full/charmander31.gif" width="150">
 -->
+
+
+## Portfolio Website
+
+Professional portfolio website built with **Astro** and **Tailwind CSS**, deployed on GitHub Pages.
+
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build locally
+npm run preview
+```
+
+## 📁 Project Structure
+
+```
+portfolio/
+├── .github/workflows/deploy.yml  # GitHub Actions deployment
+├── public/                        # Static assets
+│   └── profile.jpg               # Your profile photo (add your own)
+├── src/
+│   ├── layouts/Layout.astro      # Base HTML layout
+│   ├── pages/index.astro         # Main portfolio page
+│   └── styles/global.css         # Global styles & Tailwind
+├── astro.config.mjs              # Astro configuration
+├── tailwind.config.mjs           # Tailwind configuration
+├── tsconfig.json                 # TypeScript configuration
+└── package.json                  # Dependencies & scripts
+```
+
+## 🎨 Customization
+
+### Profile Photo
+Replace `public/profile.jpg` with your own professional photo (recommended: 400×400px).
+
+### Content
+Edit `src/pages/index.astro` to update:
+- Hero section text
+- About section
+- Key achievements statistics
+- Technical skills categories
+- Open source projects
+- Experience timeline
+- Education & certifications
+
+### Colors & Theme
+Modify `tailwind.config.mjs` to customize the color palette. The current theme uses a dark slate/cyan color scheme.
+
+## 🚢 Deployment
+
+### GitHub Pages (Automatic)
+1. Push to `main` branch
+2. GitHub Actions workflow builds and deploys automatically
+3. Site available at `https://calileus.github.io`
+
+### Manual Deployment
+```bash
+npm run build
+# Deploy the `dist/` folder to any static hosting
+```
+
+## 🔧 Tech Stack
+
+- **Astro 5** — Modern static site builder
+- **Tailwind CSS 3** — Utility-first styling
+- **GitHub Actions** — CI/CD pipeline
+- **GitHub Pages** — Free static hosting
+
+## 📄 License
+
+MIT License — Feel free to use as a template for your own portfolio.
