@@ -154,7 +154,8 @@
     }
 
     .brand-mark__dot {
-        @apply h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_16px_rgba(52, 211, 153, 0.7)];
+        @apply h-2.5 w-2.5 rounded-full bg-emerald-400;
+        box-shadow: 0 0 16px rgba(52, 211, 153, 0.7);
     }
 
     .nav-link {
@@ -185,7 +186,8 @@
     }
 
     .status-dot {
-        @apply mr-2 inline-block h-2 w-2 rounded-full bg-emerald-400 align-middle shadow-[0_0_10px_rgba(52, 211, 153, 0.8)];
+        @apply mr-2 inline-block h-2 w-2 rounded-full bg-emerald-400 align-middle;
+        box-shadow: 0 0 10px rgba(52, 211, 153, 0.8);
     }
 
     .hero-copy h1 {
