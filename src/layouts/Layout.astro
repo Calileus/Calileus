@@ -4,7 +4,6 @@ import "../styles/global.css";
 const { title } = Astro.props;
 const siteUrl = "https://calileus.github.io";
 const description = "Carlos Limón Ledesma - Software Architect & Lead Developer. Modern C++, Linux, distributed systems, CI/CD, software quality, engineering excellence.";
-const ogImage = `${siteUrl}/og-image.svg`;
 ---
 
 <!doctype html>
@@ -14,82 +13,34 @@ const ogImage = `${siteUrl}/og-image.svg`;
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <meta name="theme-color" content="#064e3b" />
-    <meta name="author" content="Carlos Limón Ledesma" />
-    <meta name="robots" content="index, follow" />
     <title>{title}</title>
-    
-    <!-- Canonical URL -->
-    <link rel="canonical" href={siteUrl} />
     
     <!-- Open Graph / Social -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content={siteUrl} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:image" content={ogImage} />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Carlos Limón Ledesma - Software Architect & Lead Developer" />
-    <meta property="og:site_name" content="Carlos Limón Ledesma" />
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content={`${siteUrl}/og-image.png`} />
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content={siteUrl} />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
-    <meta name="twitter:image" content={ogImage} />
-    <meta name="twitter:image:alt" content="Carlos Limón Ledesma - Software Architect & Lead Developer" />
+    <meta name="twitter:image" content={`${siteUrl}/og-image.png`} />
     
     <!-- Preconnect for fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="manifest" href="/site.webmanifest" />
-    
-    <!-- DNS Prefetch for external links -->
-    <link rel="dns-prefetch" href="https://github.com" />
-    <link rel="dns-prefetch" href="https://linkedin.com" />
-    
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json" set:html={JSON.stringify({
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Carlos Limón Ledesma",
-      "jobTitle": "Software Architect & Lead Developer",
-      "url": siteUrl,
-      "image": ogImage,
-      "sameAs": [
-        "https://github.com/Calileus",
-        "https://linkedin.com/in/calileus"
-      ],
-      "knowsAbout": [
-        "C++", "Software Architecture", "Distributed Systems", 
-        "CI/CD", "DevOps", "MISRA", "Automotive Software"
-      ],
-      "worksFor": {
-        "@type": "Organization",
-        "name": "AUMOVIO / Continental Autonomous Mobility"
-      },
-      "alumniOf": [
-        {
-          "@type": "EducationalOrganization",
-          "name": "Universidad Nacional Autónoma de México"
-        },
-        {
-          "@type": "EducationalOrganization",
-          "name": "Universidad Autónoma de Querétaro"
-        }
-      ]
-    })} />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     
     <style>
       * {
-        font-family: 'Inter', sans-serif;
+        font-family: 'Space Grotesk', sans-serif;
       }
       
       .font-display {
@@ -110,45 +61,10 @@ const ogImage = `${siteUrl}/og-image.svg`;
           transition-duration: 0.01ms !important;
           scroll-behavior: auto !important;
         }
-        
-        .animate-on-scroll {
-          opacity: 1 !important;
-          transform: none !important;
-        }
       }
     </style>
   </head>
-  <body class="antialiased bg-surface-950 text-surface-100">
+  <body class="antialiased bg-neutral-950 text-neutral-200">
     <slot />
-    
-    <!-- Intersection Observer for scroll animations -->
-    <script is:inline>
-      (() => {
-        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-        
-        if (prefersReducedMotion) {
-          document.querySelectorAll('.animate-on-scroll').forEach(el => {
-            el.classList.add('visible');
-          });
-          return;
-        }
-        
-        const observer = new IntersectionObserver((entries) => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        }, {
-          threshold: 0.1,
-          rootMargin: '0px 0px -50px 0px'
-        });
-        
-        document.querySelectorAll('.animate-on-scroll').forEach(el => {
-          observer.observe(el);
-        });
-      })();
-    </script>
   </body>
 </html>
