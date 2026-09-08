@@ -3,5 +3,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
     site: "https://calileus.github.io",
+    base: "/Calileus",
     integrations: [tailwind()]
 });
