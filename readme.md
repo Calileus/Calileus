@@ -1,6 +1,6 @@
 # Calileus | Software Architect
 
-**Visit my professional portfolio:** https://calileus.github.io
+**Visit my professional portfolio:** https://calileus.github.io/Calileus
 
 ---
 
