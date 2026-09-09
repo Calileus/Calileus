@@ -438,6 +438,116 @@
         @apply flex flex-col gap-3 border-t border-neutral-800 font-mono text-[10px] uppercase tracking-wider text-neutral-600 sm:flex-row sm:justify-between;
     }
 
+    /* Philosophy Section */
+    .philosophy-panel {
+        @apply rounded-2xl border border-neutral-800 bg-neutral-900/60 p-8 space-y-6 text-neutral-300 leading-relaxed;
+    }
+
+    .philosophy-panel p {
+        @apply text-base md:text-lg;
+    }
+
+    .philosophy-panel strong {
+        @apply text-emerald-300 font-semibold;
+    }
+
+    .philosophy-list {
+        @apply space-y-5 list-none;
+    }
+
+    .philosophy-list li {
+        @apply relative pl-6 text-sm md:text-base;
+    }
+
+    .philosophy-list li::before {
+        content: '→';
+        @apply absolute left-0 text-emerald-500 font-bold;
+    }
+
+    .philosophy-list strong {
+        @apply text-white;
+    }
+
+    /* Certifications Grid */
+    .certs-grid {
+        @apply grid gap-4 md:grid-cols-2;
+    }
+
+    .cert-card {
+        @apply rounded-2xl border border-neutral-800 bg-neutral-900/60 p-6 hover:border-emerald-500/40 transition-all duration-300 hover:bg-neutral-900;
+    }
+
+    .cert-year {
+        @apply font-mono text-xs font-bold tracking-widest text-emerald-400 mb-2;
+    }
+
+    .cert-card h3 {
+        @apply text-lg font-semibold text-white mb-2;
+    }
+
+    .cert-issuer {
+        @apply text-xs font-medium text-emerald-400 mb-3;
+    }
+
+    .cert-desc {
+        @apply text-sm text-neutral-400 leading-relaxed;
+    }
+
+    /* Testimonials Grid */
+    .testimonials-grid {
+        @apply grid gap-4 md:grid-cols-2;
+    }
+
+    .testimonial-card {
+        @apply rounded-2xl border border-neutral-800 bg-neutral-900/60 p-7 hover:border-emerald-500/40 transition-all duration-300 hover:bg-neutral-900 flex flex-col justify-between;
+    }
+
+    .testimonial-card--highlight {
+        @apply border-emerald-500/20 bg-emerald-950/20 italic opacity-75;
+    }
+
+    .testimonial-quote {
+        @apply text-sm md:text-base leading-relaxed text-neutral-300 mb-6;
+    }
+
+    .testimonial-author {
+        @apply border-t border-neutral-800 pt-4;
+    }
+
+    .testimonial-name {
+        @apply font-semibold text-white text-sm;
+    }
+
+    .testimonial-title {
+        @apply text-xs text-emerald-400 font-medium;
+    }
+
+    .testimonial-location {
+        @apply text-xs text-neutral-500 mt-1;
+    }
+
+    /* Experience Badge */
+    .experience-badge {
+        @apply ml-2 rounded-full bg-amber-500/15 px-2 py-1 font-mono text-[9px] tracking-wider text-amber-400;
+    }
+
+    /* GitHub Stats */
+    .github-stats {
+        @apply flex flex-wrap items-center gap-4 mt-4 pt-4 border-t border-neutral-800 font-mono text-xs;
+    }
+
+    .github-stats span {
+        @apply text-neutral-400;
+    }
+
+    .github-stats strong {
+        @apply text-emerald-300 font-semibold;
+    }
+
+    .stat-divider {
+        @apply h-4 w-px bg-neutral-700;
+    }
+
     @media (max-width: 640px) {
         .hero-section {
             @apply py-16;
@@ -453,6 +563,26 @@
 
         .section-band {
             @apply py-16;
+        }
+
+        .certs-grid {
+            @apply grid-cols-1;
+        }
+
+        .testimonials-grid {
+            @apply grid-cols-1;
+        }
+
+        .github-stats {
+            @apply flex-col gap-2;
+        }
+
+        .stat-divider {
+            @apply hidden;
+        }
+
+        .experience-role {
+            @apply flex-col items-start gap-2;
         }
     }
 }

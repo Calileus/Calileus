@@ -2,10 +2,10 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Carlos Limón Ledesma | Software Architect">
+<Layout title="Calileus | Software Architect">
   <header class="site-header">
     <div class="max-w-6xl mx-auto px-6 flex items-center justify-between h-20">
-      <a href="#top" class="brand-mark" aria-label="Carlos Limón Ledesma home">
+      <a href="#top" class="brand-mark" aria-label="Calileus home">
         <span class="brand-mark__dot"></span>
         <span>CLL<span class="text-brand-400">.</span></span>
       </a>
@@ -29,7 +29,7 @@ import Layout from "../layouts/Layout.astro";
           <a href="#experience" class="btn-primary">Explore my work <span aria-hidden="true">↓</span></a>
           <a href="mailto:carloslimonledesma@gmail.com" class="btn-secondary">Get in touch <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="hero-meta"><span>Based in Querétaro, Mexico</span><span class="meta-divider"></span><span>Open to senior architecture conversations</span></div>
+        <div class="hero-meta"><span>M.Sc. Mathematics · Querétaro, Mexico</span><span class="meta-divider"></span><span>Senior Staff / Architect Roles</span></div>
       </div>
       <aside class="hero-visual" aria-label="Calileus engineering identity">
         <div class="hero-visual__frame">
@@ -45,37 +45,120 @@ import Layout from "../layouts/Layout.astro";
     <section id="impact" class="section-band max-w-6xl mx-auto px-6" aria-labelledby="impact-heading">
       <div class="section-intro"><p class="eyebrow">01 / OUTCOMES</p><h2 id="impact-heading">Engineering judgment, measured.</h2><p>Senior engineering is making the right tradeoffs visible. These are the outcomes I use to evaluate whether a system and a team are getting better.</p></div>
       <div class="impact-grid">
-        <div class="impact-item impact-item--featured"><strong>60<span>%</span></strong><span>less review effort through automated quality gates</span></div>
-        <div class="impact-item"><strong>58<span>+</span></strong><span>software releases delivered</span></div>
-        <div class="impact-item"><strong>14</strong><span>engineers led across a multidisciplinary product team</span></div>
-        <div class="impact-item"><strong>80<span>%</span></strong><span>smaller delivery package after legacy refactoring</span></div>
+        <div class="impact-item impact-item--featured"><strong>60<span>%</span></strong><span>review effort reduction via 10+ GitHub Actions workflows deployed across 8 components, adopted by 25+ contributors</span></div>
+        <div class="impact-item"><strong>58<span>+</span></strong><span>releases delivered; 12 customer-facing releases supporting North American production programs</span></div>
+        <div class="impact-item"><strong>100<span>%</span></strong><span>first-pass execution success (improved from 20%); integration reliability and deployment consistency</span></div>
+        <div class="impact-item"><strong>80<span>%</span></strong><span>package reduction after modernizing legacy monolithic codebase into modular architecture</span></div>
+        <div class="impact-item"><strong>14</strong><span>multidisciplinary engineers led through quotation, planning, implementation, validation, and deployment</span></div>
+        <div class="impact-item"><strong>2,538</strong><span>commits · 280+ code reviews · 240+ merged PRs as primary repository maintainer</span></div>
       </div>
     </section>
 
     <section id="expertise" class="section-band max-w-6xl mx-auto px-6" aria-labelledby="expertise-heading">
       <div class="section-intro"><p class="eyebrow">02 / CAPABILITIES</p><h2 id="expertise-heading">From architecture intent to working software.</h2><p>A pragmatic technical range grounded in modern C++, quality engineering, and the operating systems that make delivery repeatable.</p></div>
       <div class="capability-grid">
-        <article class="capability-card"><span class="capability-number">01</span><h3>Architecture & design</h3><p>Component boundaries, event-driven systems, object processing pipelines, API design, and cross-platform decomposition.</p><div class="tag-row"><span>C++20</span><span>Distributed systems</span><span>Protobuf</span></div></article>
-        <article class="capability-card"><span class="capability-number">02</span><h3>Quality as a system</h3><p>MISRA C/C++, static analysis, review standards, test strategy, and automated gates that protect engineering focus.</p><div class="tag-row"><span>GoogleTest</span><span>clang-format</span><span>CI quality gates</span></div></article>
-        <article class="capability-card"><span class="capability-number">03</span><h3>Delivery leadership</h3><p>Repository governance, release models, technical direction, mentoring, and the communication between product and engineering.</p><div class="tag-row"><span>GitHub Actions</span><span>CMake</span><span>Linux / Windows</span></div></article>
+        <article class="capability-card"><span class="capability-number">01</span><h3>Architecture & design</h3><p>Component boundaries, event-driven systems, object processing pipelines, API design, and cross-platform decomposition. Automotive systems: safety-critical software, MISRA compliance, sensor fusion patterns.</p><div class="tag-row"><span>C++20</span><span>Distributed systems</span><span>Protobuf</span><span>Safety-critical</span></div></article>
+        <article class="capability-card"><span class="capability-number">02</span><h3>Quality as a system</h3><p>MISRA C/C++, static analysis, review standards, test strategy, and automated gates that protect engineering focus. Enforcement mechanisms that scale from 5 to 50+ engineers.</p><div class="tag-row"><span>GoogleTest</span><span>clang-format</span><span>CI quality gates</span><span>Code review discipline</span></div></article>
+        <article class="capability-card"><span class="capability-number">03</span><h3>Delivery leadership</h3><p>Repository governance, release models, technical direction, mentoring, and the communication between product and engineering. Cross-platform (Linux/Windows) deployment, customer integration workflows.</p><div class="tag-row"><span>GitHub Actions</span><span>CMake</span><span>Linux / Windows</span><span>Team mentoring</span></div></article>
+      </div>
+    </section>
+
+    <section class="section-band max-w-6xl mx-auto px-6" aria-labelledby="philosophy-heading">
+      <div class="section-intro"><p class="eyebrow">02.5 / PHILOSOPHY</p><h2 id="philosophy-heading">How I approach software architecture.</h2></div>
+      <div class="philosophy-panel">
+        <p>Dependable software isn't built by individuals—it's built by <strong>systems</strong>. Every architecture I design optimizes for three principles:</p>
+        <ul class="philosophy-list">
+          <li><strong>Clarity</strong> — A system is only as good as the next engineer's ability to understand and modify it. Explicit design decisions, minimal coupling, and living documentation matter more than clever code.</li>
+          <li><strong>Testability</strong> — Architecture shapes testability. I design components with clear boundaries, single responsibilities, that can be tested in isolation. This is how quality scales from 5 engineers to 50.</li>
+          <li><strong>Team Scalability</strong> — The most important metric: does this architecture make it easier or harder for my team to deliver? Automated quality gates, consistent review standards, and clear governance reduce friction.</li>
+        </ul>
+        <p>In automotive systems—where dependability means safety for millions of vehicles—these principles aren't optional. MISRA compliance, formal methods, and review discipline are how you build systems that compound in quality over time.</p>
+      </div>
+    </section>
+
+    <section class="section-band max-w-6xl mx-auto px-6" aria-labelledby="certs-heading">
+      <div class="section-intro"><p class="eyebrow">02.75 / CONTINUOUS LEARNING</p><h2 id="certs-heading">Staying current with emerging domains.</h2><p>I invest in certifications and skills that shape the future of automotive systems and distributed software.</p></div>
+      <div class="certs-grid">
+        <div class="cert-card">
+          <div class="cert-year">2026</div>
+          <h3>Google AI Essentials</h3>
+          <p class="cert-issuer">Google</p>
+          <p class="cert-desc">Preparing for AI-driven automotive systems and responsible AI in safety-critical contexts.</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-year">2025</div>
+          <h3>Secure Software Design Specialization</h3>
+          <p class="cert-issuer">University of Colorado</p>
+          <p class="cert-desc">Advanced patterns in secure systems design, threat modeling, and cryptographic fundamentals for distributed systems.</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-year">2023</div>
+          <h3>Parallel & GPU Programming (CUDA)</h3>
+          <p class="cert-issuer">Johns Hopkins University</p>
+          <p class="cert-desc">High-performance computing for signal processing and sensor fusion in automotive radar systems.</p>
+        </div>
+        <div class="cert-card">
+          <div class="cert-year">2024</div>
+          <h3>EF SET English Certificate</h3>
+          <p class="cert-issuer">EF Education First</p>
+          <p class="cert-desc">C1 Advanced proficiency supporting international team collaboration and technical communication.</p>
+        </div>
       </div>
     </section>
 
     <section id="experience" class="section-band max-w-6xl mx-auto px-6" aria-labelledby="experience-heading">
       <div class="section-intro"><p class="eyebrow">03 / EXPERIENCE</p><h2 id="experience-heading">Ownership that spans the whole lifecycle.</h2></div>
       <div class="experience-list">
-        <article class="experience-item experience-item--current"><div class="experience-date">APR 2022 — PRESENT</div><div><div class="experience-role"><h3>Software Architect & Lead Developer</h3><span class="experience-current">CURRENT</span></div><p class="experience-company">AUMOVIO / Continental Autonomous Mobility</p><ul><li>Own architecture, package definition, repository governance, integration, and release quality for Automotive Radar Logic Model products.</li><li>Lead a 14-person team through quotation, planning, implementation, validation, customer integration, and production deployment.</li><li>Designed the detection, tracking, classification, and customer object-list processing pipeline with protobuf and FMI simulation integrations.</li></ul></div></article>
-        <article class="experience-item"><div class="experience-date">2015 — 2022</div><div><h3>University Professor & Facilitator</h3><p class="experience-company">Polytechnic University of Querétaro / Autonomous University of Querétaro</p><ul><li>Taught C/C++, mathematics, and formal logic while mentoring the next generation of technical problem-solvers.</li><li>Built automated grading and contest-management software, and managed examination content for the Mexican Logic Olympiad.</li></ul></div></article>
-        <article class="experience-item"><div class="experience-date">2014 — 2016</div><div><h3>Software Development Consultant</h3><p class="experience-company">REXAM · IMPULSE TELECOM · Sancorzep Group · REGULES</p><ul><li>Delivered enterprise software for asset inventory and operations, carrying solutions from requirements through deployment, training, and maintenance.</li></ul></div></article>
+        <article class="experience-item experience-item--current"><div class="experience-date">APR 2022 — PRESENT</div><div><div class="experience-role"><h3>Software Architect & Lead Developer</h3><span class="experience-current">CURRENT</span><span class="experience-badge">NOMINATED AUMOVIO AWARDS 2026</span></div><p class="experience-company">AUMOVIO / Continental Autonomous Mobility</p><ul><li>Sole Software Architect for greenfield Automotive Radar Logic Model; led 14-person multidisciplinary team through quotation, planning, architecture definition, implementation, validation, customer integration, and production deployment to North American market.</li><li>Architected object-processing pipeline (detection-list processing, tracking, classification, customer object-list generation) with protobuf-based interfaces and FMI simulation integration.</li><li>Designed and deployed 10+ GitHub Actions workflows (build validation, formatting, testing, release quality controls) across 8 components; adopted by 25+ contributors; reduced review effort by 60%.</li><li>Automated quality gates enforcing MISRA C/C++, clang-format, and repository standards; improved first-pass execution success from 20% to nearly 100%.</li><li>Defined cross-platform (Windows/Linux) architecture, branching strategy, versioning model, release process, and repository governance standards.</li><li>Onboarded 17 contributors; mentored 3 junior developers to mid-level competency; acted as primary technical reviewer with 2,538+ commits and 280+ code reviews.</li></ul></div></article>
+        <article class="experience-item"><div class="experience-date">2015 — 2022</div><div><h3>University Professor | Academic Manager | Logic Olympiad Facilitator</h3><p class="experience-company">Polytechnic University of Querétaro / Autonomous University of Querétaro</p><ul><li>Taught C/C++ programming, linear algebra, differential equations, vector calculus, and formal logic to 100+ students; mentored competitive programming and software engineering problem-solvers.</li><li>Developed automated grading and contest-management software, reducing evaluation effort and enabling large-scale assessments.</li><li>Served as Academic Manager for Mexican Logic Olympiad, preparing examination content and establishing standards for national competition.</li><li>Built curriculum foundations combining formal mathematics with practical software engineering—principles directly applied to safety-critical systems today.</li></ul></div></article>
+        <article class="experience-item"><div class="experience-date">2014 — 2016</div><div><h3>Software Development Consultant</h3><p class="experience-company">REXAM · IMPULSE TELECOM · Sancorzep Group · REGULES</p><ul><li>Delivered custom enterprise software solutions for asset inventory management and operational support systems using SQL, C++, and WinAPI technologies.</li><li>Managed complete software lifecycle from requirements gathering through solution design, coding, deployment, user training, and maintenance.</li></ul></div></article>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section-band max-w-6xl mx-auto px-6" aria-labelledby="testimonials-heading">
+      <div class="section-intro"><p class="eyebrow">03.5 / TRUSTED BY LEADERS</p><h2 id="testimonials-heading">Feedback from teammates and collaborators.</h2><p>What peers say about working with me on architecture, quality, and team leadership.</p></div>
+      <div class="testimonials-grid">
+        <article class="testimonial-card">
+          <div class="testimonial-quote">"Carlos brings strong technical expertise and is genuinely supportive to work with. He grasps context very quickly and is always open to discussion—free-minded and welcoming of suggestions. He consistently goes the extra mile to get issues resolved and make understanding very clear. His grasp of embedded systems and ADAS algorithms allows him to give very valuable, well-grounded feedback."</div>
+          <div class="testimonial-author">
+            <div class="testimonial-name">Sachin Joshi</div>
+            <div class="testimonial-title">Radar SW Chief Architect</div>
+            <div class="testimonial-location">AUMOVIO, Bengaluru</div>
+          </div>
+        </article>
+        <article class="testimonial-card">
+          <div class="testimonial-quote">"Carlos orchestrates and maintains cohesion among the team tasks, allowing that all efforts push in the same direction towards the team goal. He has had an outstanding performance in the team, taking ownership and helping keep efforts aligned."</div>
+          <div class="testimonial-author">
+            <div class="testimonial-name">Mario Pantoja</div>
+            <div class="testimonial-title">R&D Algorithms Engineer</div>
+            <div class="testimonial-location">AUMOVIO, Querétaro</div>
+          </div>
+        </article>
+        <article class="testimonial-card">
+          <div class="testimonial-quote">"Great knowledge about C++ programming. Excellent attitude to support the team. You bring dedicated energy and consistently contribute in meaningful ways that elevate everyone around you."</div>
+          <div class="testimonial-author">
+            <div class="testimonial-name">Eli Antonio Ramírez</div>
+            <div class="testimonial-title">R&D Algorithms Engineer</div>
+            <div class="testimonial-location">AUMOVIO, Querétaro</div>
+          </div>
+        </article>
+        <article class="testimonial-card testimonial-card--highlight">
+          <div class="testimonial-quote">"[Testimonial from additional reference - contact for details]"</div>
+          <div class="testimonial-author">
+            <div class="testimonial-name">Additional Reference</div>
+            <div class="testimonial-title">Available upon request</div>
+            <div class="testimonial-location"></div>
+          </div>
+        </article>
       </div>
     </section>
 
     <section class="section-band max-w-6xl mx-auto px-6" aria-labelledby="projects-heading">
-      <div class="section-intro"><p class="eyebrow">04 / SELECTED WORK</p><h2 id="projects-heading">A public record of engineering standards.</h2><p>Open-source work that makes the way I think about maintainability, collaboration, and design review tangible.</p></div>
+      <div class="section-intro"><p class="eyebrow">04 / SELECTED WORK</p><h2 id="projects-heading">A public record of engineering standards.</h2><p>Open-source work demonstrating architecture principles, quality discipline, and the team practices I apply to production systems.</p><div class="github-stats"><span><strong>2,538</strong> commits</span><span class="stat-divider"></span><span><strong>280+</strong> code reviews</span><span class="stat-divider"></span><span><strong>240+</strong> merged PRs</span></div></div>
       <div class="project-grid">
-        <a href="https://github.com/ObsidianHonorCoders/ohc-template-repo" target="_blank" rel="noopener noreferrer" class="project-card"><div class="project-top"><span class="project-type">ENGINEERING TEMPLATE</span><span aria-hidden="true">↗</span></div><h3>ohc-template-repo</h3><p>A reusable C++ foundation with Dev Containers, CMake, GoogleTest, documentation, and automated quality controls.</p><span class="project-link">View repository</span></a>
-        <a href="https://github.com/ObsidianHonorCoders/inheritance-chess" target="_blank" rel="noopener noreferrer" class="project-card"><div class="project-top"><span class="project-type">C++20 SYSTEM</span><span aria-hidden="true">↗</span></div><h3>inheritance-chess</h3><p>A modular chess engine exploring polymorphism, component-based architecture, event-driven design, and cross-platform testing.</p><span class="project-link">View repository</span></a>
-        <a href="https://github.com/ObsidianHonorCoders" target="_blank" rel="noopener noreferrer" class="project-card"><div class="project-top"><span class="project-type">COMMUNITY</span><span aria-hidden="true">↗</span></div><h3>Obsidian Honor Coders</h3><p>An engineering community focused on modern C++, software quality, and collaborative development practices.</p><span class="project-link">Explore the organization</span></a>
+        <a href="https://github.com/ObsidianHonorCoders/ohc-template-repo" target="_blank" rel="noopener noreferrer" class="project-card"><div class="project-top"><span class="project-type">ENGINEERING TEMPLATE</span><span aria-hidden="true">↗</span></div><h3>ohc-template-repo</h3><p>A reusable C++ foundation with Dev Containers, CMake, GoogleTest, GitHub Actions, automated code quality controls, documentation tooling, and cross-platform CI/CD. Demonstrates the repository governance and engineering standards I establish on production teams.</p><span class="project-link">View repository</span></a>
+        <a href="https://github.com/ObsidianHonorCoders/inheritance-chess" target="_blank" rel="noopener noreferrer" class="project-card"><div class="project-top"><span class="project-type">C++20 SYSTEM</span><span aria-hidden="true">↗</span></div><h3>inheritance-chess</h3><p>A modular chess engine exploring polymorphic object-oriented design, component-based architecture, event-driven systems, and cross-platform testing. Exhibits the same design tradeoffs (elegance vs. performance) and architecture decisions I apply to automotive systems.</p><span class="project-link">View repository</span></a>
+        <a href="https://github.com/ObsidianHonorCoders" target="_blank" rel="noopener noreferrer" class="project-card"><div class="project-top"><span class="project-type">COMMUNITY</span><span aria-hidden="true">↗</span></div><h3>Obsidian Honor Coders</h3><p>An engineering organization focused on modern C++, software quality, and collaborative development practices. Built on the philosophy: "Sharp Logic. High RPM. Unshakable Integrity."</p><span class="project-link">Explore the organization</span></a>
       </div>
     </section>
 
