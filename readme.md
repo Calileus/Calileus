@@ -24,6 +24,8 @@ I'm a software architect specializing in **modern C++, automotive systems, and q
 - **Recent Certifications:** Google AI Essentials (2026), Secure Software Design Specialization (2025), Parallel & GPU Programming CUDA (2023), EF SET English C1 Advanced (2024)
 
 ### Technical Stack
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Calileus&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+
 `C++20/17` • `C` • `Python` • `CMake` • `GitHub Actions` • `Docker` • `Protobuf` • `Linux` • `Windows`
 
 ### Connect & Explore
